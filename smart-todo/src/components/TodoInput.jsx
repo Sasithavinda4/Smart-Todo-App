@@ -34,6 +34,8 @@ const TodoInput = () => {
     );
 };
 
+export default TodoInput;
+
 // In handleSubmit, 
 // Stop page reload (preventDefault)
 // Ignore empty input
