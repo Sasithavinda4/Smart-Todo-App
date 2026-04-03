@@ -6,7 +6,7 @@ const FilterBar = () => {
 
     return (
         <div className="flex gap-2 my-3">
-            // Buttons to set the filter state (Updates global filter state on click)
+            {/* Buttons to set the filter state (Updates global filter state on click) */}
             <button onClick={() => setFilter("all")}>All</button>
             <button onClick={() => setFilter("active")}>Active</button>
             <button onClick={() => setFilter("completed")}>Completed</button>
