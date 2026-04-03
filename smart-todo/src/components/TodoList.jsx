@@ -16,7 +16,7 @@ const TodoList = () => {
 
     return (
         <div>
-            // Rendering list of todos
+            {/* Rendering list of todos */}
             {filteredTodos.map((todo) => (
                 <TodoItem key={todo.id} todo={todo} />
             ))}
