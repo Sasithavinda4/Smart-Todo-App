@@ -22,3 +22,9 @@ const TodoItem = ({ todo }) => {
 };
 
 export default TodoItem;
+
+// In TodoItem, we receive a single todo as a prop
+// We get deleteTodo and toggleTodo functions from context
+// We render the todo text and a delete button
+// Clicking the text toggles the completed state of the todo
+// Clicking the delete button removes the todo from the list
