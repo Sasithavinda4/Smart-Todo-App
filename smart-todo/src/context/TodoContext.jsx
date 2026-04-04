@@ -61,3 +61,22 @@ export const TodoProvider = ({ children }) => {
         </TodoContext.Provider>
     )
 };
+
+// This is called lazy initialization
+
+// Why not just useState([])?
+
+// Because:
+
+// It loads saved todos from localStorage
+// Runs only ONCE (performance optimization)
+
+// Think :
+
+// "Load previous data when app starts"
+
+
+
+// Why map in toggleTodo?
+
+// You update ONE item without touching others
