@@ -3,7 +3,7 @@ import { useTodos } from "../context/TodoContext";
 
 const TodoInput = () => {
     // Todo Input (Adding Todos)
-    const [text, setText] = useState("");
+    const [text, setText] = useState("");  // This is local state.. Only this component cares about typing..
     const { addTodo } = useTodos();
 
     const handleSubmit = (e) => {

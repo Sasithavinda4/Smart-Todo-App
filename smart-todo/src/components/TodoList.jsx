@@ -3,7 +3,7 @@ import TodoItem from "./TodoItem";
 
 const TodoList = () => {
     // Todo List (Displaying Todos)
-    const { todos, filter } = useTodos();
+    const { todos, filter } = useTodos();  // This is the magic : No props passed.. Direct access from context..
     // const { todos } = useTodos();
 
     // Filtering logic
@@ -30,6 +30,16 @@ export default TodoList;
 // We filter the todos based on the current filter state
 // We map over the filtered todos and render a TodoItem for each one
 
+
 // For each todo :
 // Render a TodoItem
 // Use key for React performance
+
+
+// Why map?
+
+// Convert data → UI
+
+// Why key?
+
+// Helps React track changes efficiently
